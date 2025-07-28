@@ -1,0 +1,46 @@
+:root{
+    --text-color: #000;
+    --background-color:#fff;
+    --primary-color: #000;
+    --secondary-color: #f0f0f0;
+    --border-color: #c91f1f;
+    --input-color: #f9f9f9;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
+    color: var(--text-color);
+    
+    
+}
+
+body{
+  
+    background-image: url("img/7062114.jpg");
+    background-size: contain;
+    background-position: center ;
+    overflow: hidden;
+}
+
+#login_form{
+    height: 100vh;
+   background-color: var(--background-color);
+    width:  400px;
+    align-content: center;
+    
+}
+
+#login_head{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.img_label{
+    height: 25px;
+    background-color: var(--input-color);
+}
+
+
