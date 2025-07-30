@@ -2,7 +2,7 @@
     --text-color: #000;
     --background-color:#fff;
     --primary-color: #000;
-    --secondary-color: #f0f0f0;
+    --secondary-color: #43c928;
     --border-color: #c91f1f;
     --input-color: #f9f9f9;
 }
@@ -26,9 +26,11 @@ body{
 
 #login_form{
     height: 100vh;
-   background-color: var(--background-color);
+    background-color: var(--background-color);
     width:  400px;
     align-content: center;
+    display: grid;
+    gap: 15px;
     
 }
 
@@ -38,9 +40,32 @@ body{
     margin-bottom: 5px;
 }
 
-.img_label{
-    height: 25px;
-    background-color: var(--input-color);
+.fa-user{
+    font-size: 22px;
+    margin-top: 12px;
 }
 
+.fa-lock{
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+.input_div{
+
+    width: 60%;
+    height: 42px;
+    background-color: var(--secondary-color);
+}
+
+.username{
+    padding: 9px; 
+    width: 80%;
+}
+
+.password{
+    width: 80%;
+    margin: 0px;
+    padding: 3%; 
+
+}
 

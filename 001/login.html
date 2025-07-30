@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Login</title>
 </head>
 <body>
 
     <form action="" id="login_form">
         <p id="login_head">Login</p>
-        <label for="username" class="login_label"><img src="img/person.png" class="img_label" alt="person icon"></label> 
-        <input type="text" class="username" id="username" placeholder="Username" required><br><br>
-        <label for="password" class="login_label" ><img src="img/lock.png" alt=" lock icon"> </label>
-        <input type="password" class="password" id="password" placeholder="Password" required><br><br>
+        <div class="input_div">
+        <i class="fa-solid fa-user"></i>
+        <input type="text" class="username" id="username" placeholder="Username" required></div>
+        
+        <div class="input_div"><i class="fa-solid fa-lock"></i>
+        <input type="password" class="password" id="password" placeholder="Password" required></div>
         <button id="btn">Submit</button>
         <p>Don't have an account? <a href="signup.html">Sign Up</a></p> 
     </form>
