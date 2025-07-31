@@ -2,7 +2,7 @@
     --text-color: #000;
     --background-color:#fff;
     --primary-color: #000;
-    --secondary-color: #43c928;
+    --secondary-color: #188f69;
     --border-color: #c91f1f;
     --input-color: #f9f9f9;
 }
@@ -31,30 +31,33 @@ body{
     align-content: center;
     display: grid;
     gap: 15px;
-    
+    border-radius: 5px;  
 }
 
 #login_head{
     font-size: 50px;
     font-weight: 700;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .fa-user{
     font-size: 22px;
-    margin-top: 12px;
+    margin-top: 11px;
 }
 
 .fa-lock{
     font-size: 22px;
-    padding-top: 10px;
+    padding-top: 11px;
 }
 
 .input_div{
 
     width: 60%;
     height: 42px;
+    display: flex;
+    border-radius: 4px;
     background-color: var(--secondary-color);
+    margin: auto;
 }
 
 .username{
@@ -64,8 +67,12 @@ body{
 
 .password{
     width: 80%;
-    margin: 0px;
-    padding: 3%; 
+    padding: 9px; 
 
 }
 
+#btn{
+    padding: 5px;
+    width: 60%;
+    margin: auto;
+}
