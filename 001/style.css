@@ -68,11 +68,25 @@ body{
 .password{
     width: 80%;
     padding: 9px; 
+}
 
+.email{
+    width: 80%;
+    padding: 9px; 
 }
 
 #btn{
     padding: 5px;
     width: 60%;
     margin: auto;
+}
+
+.signup__login_form{
+    width: 40%;
+    height: 100vh;
+    display: grid;
+    gap: 15px;
+    position: relative;
+    left: 60%;
+    background-color: var(--background-color);
 }
