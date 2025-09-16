@@ -50,6 +50,11 @@ body{
     padding-top: 11px;
 }
 
+.fa-envelope{
+    font-size: 22px;
+    padding-top: 11px;
+}
+
 .input_div{
 
     width: 60%;
@@ -75,18 +80,17 @@ body{
     padding: 9px; 
 }
 
-#btn{
+.btn{
     padding: 5px;
     width: 60%;
-    margin: auto;
 }
 
 .signup__login_form{
-    width: 40%;
+    width: 32%;
     height: 100vh;
     display: grid;
-    gap: 15px;
+    gap: 0px;
     position: relative;
-    left: 60%;
+    left: 68%;
     background-color: var(--background-color);
 }
