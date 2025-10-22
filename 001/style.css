@@ -1,0 +1,96 @@
+:root{
+    --text-color: #000;
+    --background-color:#fff;
+    --primary-color: #000;
+    --secondary-color: #188f69;
+    --border-color: #c91f1f;
+    --input-color: #f9f9f9;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
+    color: var(--text-color);
+    
+    
+}
+
+body{
+  
+    background-image: url("img/7062114.jpg");
+    background-size: contain;
+    background-position: center ;
+    overflow: hidden;
+}
+
+#login_form{
+    height: 100vh;
+    background-color: var(--background-color);
+    width:  400px;
+    align-content: center;
+    display: grid;
+    gap: 15px;
+    border-radius: 5px;  
+}
+
+.signup__login_headtext{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.fa-user{
+    font-size: 22px;
+    margin-top: 11px;
+}
+
+.fa-lock{
+    font-size: 22px;
+    padding-top: 11px;
+}
+
+.fa-envelope{
+    font-size: 22px;
+    padding-top: 11px;
+}
+
+.input_div{
+
+    width: 60%;
+    height: 42px;
+    display: flex;
+    border-radius: 4px;
+    background-color: var(--secondary-color);
+    margin: auto;
+}
+
+.username{
+    padding: 9px; 
+    width: 80%;
+}
+
+.password{
+    width: 80%;
+    padding: 9px; 
+}
+
+.email{
+    width: 80%;
+    padding: 9px; 
+}
+
+.btn{
+    padding: 5px;
+    width: 60%;
+}
+
+.signup__login_form{
+    width: 32%;
+    height: 100vh;
+    display: grid;
+    gap: 0px;
+    position: relative;
+    left: 68%;
+    background-color: var(--background-color);
+}
